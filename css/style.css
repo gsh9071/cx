@@ -1,0 +1,117 @@
+*{margin: 0;padding: 0;list-style: none;}
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+  margin: 0;
+  padding: 0;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+  font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none;}
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+.mt10 {margin-top: 10px !important;}
+.mt5 {margin-top: 5px !important;}
+.mb10 {margin-bottom: 10px!important;}
+.mb5 {margin-bottom: 5px!important;}
+.ml10 {margin-left: 10px!important;}
+.ml5 {margin-left: 5px!important;}
+.mr10 {margin-right: 10px!important;}
+ul li {list-style: none;}
+a {text-decoration: none; color: #000;}
+.cx-bg {background: #F0F0F0;}
+
+/*首页*/
+.cx-p0 {padding: 0 !important;}
+.cx-nav {padding: 0 3px;margin: 10px auto;}
+.cx-navbar {
+	display: block;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-align: center;
+	padding-top: 28px;
+	font-size: 16px;
+	margin: 10px auto;
+}
+.cx-navbar p {
+	color: #000000;
+}
+.cx-red {border: 1px solid red;}
+.cx-red i {color: red;font-size: 20px;}
+.cx-1 {border: 1px solid #0e90d2;}
+.cx-1 i {color: #0e90d2;}
+.cx-2 {border: 1px solid green;}
+.cx-2 i {color: green;font-size: 20px;}
+.cx-3 {border: 1px solid crimson;}
+.cx-3 i {color: crimson;font-size: 20px;}
+.cx-4 {border: 1px solid mediumpurple;}
+.cx-4 i {color: mediumpurple;font-size: 20px;}
+.cx-5 {border: 1px solid sandybrown;}
+.cx-5 i {color: sandybrown;font-size: 20px;}
+
+
+/*底部导航栏*/
+.cx-footer {
+	background: #FFFFFF !important;
+	border-top: 1px solid #D2D2D2;
+}
+.cx-footer li a {
+	color: #222222;
+}
+.cx-footer-on {
+	color: #0e90d2 !important;
+}
+/*会员中心*/
+.cx-user-top {
+	padding: 10px 0;
+	border-bottom: 1px solid #D2D2D2;
+}
+.cx-user-img {
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+.cx-user-title {
+	line-height: 100px;
+	padding: 0 !important;
+	font-size: 20px;
+}
+.cx-user-title span {color: #ea5300; font-weight: 800;}
+.cx-x {text-align: center;}
+.cx-yj {
+	color: #ea5300;
+	font-size: 20px;
+	font-weight: 500;
+}
+.cx-jf {
+	font-size: 20px;
+	font-weight: 500;
+}
