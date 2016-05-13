@@ -115,7 +115,24 @@ a {text-decoration: none; color: #000;}
 	font-size: 20px;
 	font-weight: 500;
 }
-
+.cx-icon1,.cx-icon2,.cx-icon3,.cx-icon4,.cx-icon5,.cx-icon6,.cx-icon7,.cx-icon8 {
+	width: 30px;
+	height: 30px;
+	color: #FFFFFF;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+.cx-icon1 {background: #52bea6;}
+.cx-icon2 {background: #f26d7e;}
+.cx-icon3 {background: #43b3cb;}
+.cx-icon4 {background: #ffaa89;}
+.cx-icon5 {background: #46b692;}
+.cx-icon6 {background: #bad538;}
+.cx-icon7 {background: #db5440;}
+.cx-icon8 {background: #c9c9c9;}
 /*zhuce*/
 .register form {
 	background: #fff;
